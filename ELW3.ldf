@@ -2,7 +2,13 @@
 <BaliProject version="3.2" title="ELW3" device="LCMXO2-1200HC-5TG144C" default_implementation="impl1">
     <Options/>
     <Implementation title="impl1" dir="impl1" description="impl1" synthesis="lse" default_strategy="Strategy1">
-        <Options/>
+        <Options def_top="ELW3_top"/>
+        <Source name="sch/ELW3_top.sch" type="Schematic" type_short="Schematic">
+            <Options top_module="ELW3_top"/>
+        </Source>
+        <Source name="IP/romBCD.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
         <Source name="ELW3.lpf" type="Logic Preference" type_short="LPF">
             <Options/>
         </Source>
