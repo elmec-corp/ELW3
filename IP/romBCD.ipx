@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DiamondModule name="romBCD" module="ROM" VendorName="Lattice Semiconductor Corporation" generator="IPexpress" date="2022 05 27 09:17:09.651" version="5.4" type="Module" synthesis="lse" source_format="Verilog">
+  <Package>
+		<File name="" type="" modified="2022 05 27 09:17:09.651"/>
+		<File name="d:/elmec-corp.git/elw3/ip/elw-3_g-bcd_byte.mem" type="mem" modified="2022 05 27 09:17:02.524"/>
+		<File name="romBCD.lpc" type="lpc" modified="2022 05 27 09:17:06.415"/>
+		<File name="romBCD.v" type="top_level_verilog" modified="2022 05 27 09:17:06.660"/>
+		<File name="romBCD_tmpl.v" type="template_verilog" modified="2022 05 27 09:17:06.660"/>
+		<File name="tb_romBCD_tmpl.v" type="testbench_verilog" modified="2022 05 27 09:17:06.671"/>
+  </Package>
+</DiamondModule>

@@ -1,0 +1,29 @@
+SCUBA, Version Diamond (64-bit) 3.12.0.240.2
+Fri May 27 09:17:06 2022
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+
+    Issued command   : C:\lscc\diamond\3.12\ispfpga\bin\nt64\scuba.exe -w -n romBCD -lang verilog -synth lse -bus_exp 7 -bb -arch xo2c00 -type romblk -device LCMXO2-1200HC -addr_width 10 -data_width 10 -num_words 1024 -cascade 11 -memfile d:/elmec-corp.git/elw3/ip/elw-3_g-bcd_byte.mem -memformat hex 
+    Circuit name     : romBCD
+    Module type      : EBR_ROM
+    Module Version   : 5.4
+    Ports            : 
+	Inputs       : Address[9:0], OutClock, OutClockEn, Reset
+	Outputs      : Q[9:0]
+    I/O buffer       : not inserted
+    Memory file      : d:/elmec-corp.git/elw3/ip/elw-3_g-bcd_byte.mem
+    EDIF output      : romBCD.edn
+    Verilog output   : romBCD.v
+    Verilog template : romBCD_tmpl.v
+    Verilog testbench: tb_romBCD_tmpl.v
+    Verilog purpose  : for synthesis and simulation
+    Bus notation     : big endian
+    Report output    : romBCD.srp
+    Element Usage    :
+          DP8KC : 2
+    Estimated Resource Usage:
+            EBR : 2
